@@ -1,0 +1,32 @@
+
+
+
+<suite name="Suite1" parallel="tests" >
+
+<test name="Regression1" >
+  <parameter name="browser" value="firefox"/>
+  
+  <classes>
+    <class name="day13_Grid.Grid_Multiple_BR">
+    </class>
+ 
+  </classes>
+</test>
+
+
+<test name="Regression12">
+  <parameter name="browser" value="chrome"/>
+  <classes>
+ 
+    <class name="day13_Grid.Grid_Multiple_BR"> 
+    </class>
+ 
+  </classes>
+</test>
+
+</suite>
+
+
+
+
+

@@ -1,0 +1,23 @@
+
+
+
+
+<suite name="Suite" parallel="tests">
+  
+  <test name="Test">
+    <classes>
+      <class name="testng.Calander_Webtable"/>
+      <class name="testng.NewTest12" ></class>
+      <class name="testng.NewTest" ></class>
+    </classes>
+  </test> 
+  
+  <test name="Test12">
+    <classes>
+      <class name="day9.SBI_PopUp_Window"/>
+    </classes>
+  </test> 
+  
+ 
+</suite> 
+

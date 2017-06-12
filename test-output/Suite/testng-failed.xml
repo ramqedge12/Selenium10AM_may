@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test12(failed)">
+    <classes>
+      <class name="testng.NewTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testng.NewTest -->
+      <class name="testng.Calander_Webtable">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testng.Calander_Webtable -->
+      <class name="testng.NewTest12">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testng.NewTest12 -->
+      <class name="day9.SBI_PopUp_Window">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- day9.SBI_PopUp_Window -->
+    </classes>
+  </test> <!-- Test12(failed) -->
+</suite> <!-- Failed suite [Suite] -->

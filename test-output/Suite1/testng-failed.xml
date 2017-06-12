@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Regression12(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="day13_Grid.Grid_Multiple_BR">
+        <methods>
+          <include name="sample" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day13_Grid.Grid_Multiple_BR -->
+    </classes>
+  </test> <!-- Regression12(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
